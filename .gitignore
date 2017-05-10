@@ -1,0 +1,108 @@
+#dave
+tmp/
+tmp.js
+tmp.xml
+tmp.html
+tmp.java
+tmp.sql
+
+# Java Files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+*.ser
+*.ec
+
+#React
+build/
+bundle.js
+
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Text Mate
+*.tmproj
+*.tmproject
+tmtags
+
+
+
+# GWT
+gwt_bree/
+gwt-unitCache/
+.apt_generated/
+WEB-INF/deploy/
+WEB-INF/classes/
+
+
+##############
+From git hub
+##############
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+#js things
+####################
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+webpackCache/
