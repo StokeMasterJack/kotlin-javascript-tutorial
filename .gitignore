@@ -22,54 +22,9 @@ build/
 bundle.js
 
 # IntelliJ Idea
-.idea/
 out/
-*.ipr
-*.iws
-*.iml
-
-# Eclipse
-.classpath
-.project
-.settings/
-.metadata/
-
-# OS X
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.Trashes
-
-# Text Mate
-*.tmproj
-*.tmproject
-tmtags
-
-
-
-# GWT
-gwt_bree/
-gwt-unitCache/
-.apt_generated/
-WEB-INF/deploy/
-WEB-INF/classes/
-
-
-##############
-From git hub
-##############
-
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+.idea/workspace.xml
+.idea/tasks.xml
 
 # Packages #
 ############
@@ -77,7 +32,6 @@ From git hub
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.zip
@@ -85,7 +39,6 @@ From git hub
 # Logs and databases #
 ######################
 *.log
-*.sqlite
 
 # OS generated files #
 ######################
@@ -97,6 +50,9 @@ From git hub
 Icon?
 ehthumbs.db
 Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
 
 #js things
 ####################
