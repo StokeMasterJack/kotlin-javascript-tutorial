@@ -8,7 +8,7 @@ tmp.sql
 
 # Java Files
 *.class
-*.jar
+#*.jar
 *.war
 *.ear
 
