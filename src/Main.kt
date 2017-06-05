@@ -10,13 +10,24 @@ fun main(args: Array<String>) {
     val root = document.getElementById("root")
 
 
-    val div = document.create.div{
-        h1{
+    val xyz: dynamic = js("window.xyz")
+    println("xyz: $xyz")
+
+
+    val user: dynamic = js("window.user")
+    println(user.firstName)
+
+    val myFunction: dynamic = js("window.myFunction")
+    myFunction()
+
+
+    val div = document.create.div {
+        h1 {
             +"Hello Kotlinx Html"
         }
-        button{
+        button {
             +"Click Me"
-            onClickFunction = { println("Clicked Again")}
+            onClickFunction = { println("Clicked Again") }
         }
     }
 
